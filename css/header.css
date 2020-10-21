@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  margin-right: 500px;
+  font-weight: 900;
+  font-size: 26px;
+  color: #37447e;
+}
+
+.header__nav ul {
+  display: flex;
+}
+
+.header__nav-item {
+  line-height: 24px;
+  font-size: 12px;
+  margin-right: 60px;
+}
+
+.header__buttons {
+  width: 104px;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.button-learn-more {
+  background: #111b47;
+  color: #ffffff;
+}
+
+.button-buy-now {
+  background: #FFD166;
+  color: #111B47;
+  margin-left: 26px;
+}

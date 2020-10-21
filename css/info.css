@@ -1,0 +1,40 @@
+.info {
+  padding-top: 60px;
+  width: 730px;
+}
+
+.price__info__container {
+  margin-top: 90px;
+  padding-bottom: 210px;
+}
+
+.price__info__container ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__price {
+  color: #37447E;
+}
+
+.info__item {
+  width: 350px;
+}
+
+.info__item h2 {
+  color: #091133;
+}
+
+.info__paragraph {
+  font-size: 14px;
+  line-height: 24px;
+  color: #5D6970;
+}
+
+.info__button {
+  color: #fff;
+  background: #111B47;
+  width: 189px;
+  height: 26px;
+  font-size: 12px;
+}
