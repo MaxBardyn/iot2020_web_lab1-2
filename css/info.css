@@ -1,6 +1,13 @@
 .info {
   padding-top: 60px;
-  width: 730px;
+  width: 65%;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    width: 100%;
+    padding-top: 0;
+  }
 }
 
 .price__info__container {
@@ -18,7 +25,24 @@
 }
 
 .info__item {
-  width: 350px;
+  width: 33.3%;
+}
+
+@media screen and (max-width: 768px) {
+  .price__info__container ul {
+    flex-direction: column;
+  }
+  .info__item {
+    padding: 15px 0;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: #111b47;
+    width: 100%;
+  }
+  .price__info__container {
+    padding-bottom: 75px;
+  }
 }
 
 .info__item h2 {

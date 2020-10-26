@@ -3,6 +3,17 @@ body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
 
+.page {
+  margin: 0 auto;
+  max-width: 1560px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+}
+
 h1 {
   font-weight: 500;
   font-size: 36px;
@@ -27,7 +38,7 @@ a {
   color: #505F98;
 }
 
-ul{
+ul {
   padding: 0;
 }
 
@@ -40,15 +51,17 @@ li {
   margin: 0 auto;
 }
 
-/* 
-
-
-
-
-
-
-ul {
-  list-style-type: none;
+@media screen and (max-width: 1440px) {
+  .container {
+    padding: 0 40px;
+  }
 }
 
- */
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1560px;
+  }
+  body {
+    font-size: 20px;
+  }
+}

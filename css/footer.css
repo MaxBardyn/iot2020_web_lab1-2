@@ -57,3 +57,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__line {
+    display: none;
+  }
+  .footer__vertical {
+    padding-top: 100px;
+  }
+  .footer__link__container {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+}
