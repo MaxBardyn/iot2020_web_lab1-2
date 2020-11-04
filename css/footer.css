@@ -70,3 +70,16 @@
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .footer__copy {
+    margin-left: 50px;
+  }
+  .footer__title {
+    margin-right: 50px;
+    font-size: 40px;
+  }
+  .footer__line {
+    display: none;
+  }
+}
